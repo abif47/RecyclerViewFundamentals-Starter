@@ -29,6 +29,7 @@ import com.example.android.trackmysleepquality.R
 import com.example.android.trackmysleepquality.database.SleepDatabase
 import com.example.android.trackmysleepquality.databinding.FragmentSleepTrackerBinding
 import com.google.android.material.snackbar.Snackbar
+import androidx.recyclerview.widget.GridLayoutManager
 
 /**
  * A fragment with buttons to record start and end times for sleep, which are saved in
@@ -115,6 +116,8 @@ class SleepTrackerFragment : Fragment() {
                 sleepTrackerViewModel.doneNavigating()
             }
         })
+        val manager = GridLayoutManager(activity, 3, GridLayoutManager.VERTICAL, false)
+        binding.sleepList.layoutManager = manager
         return binding.root
     }
 }

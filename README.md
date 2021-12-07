@@ -21,10 +21,10 @@ You should be familiar with:
 * Navigating between fragments, and using safeArgs to pass data between fragments.
 * Using view models, view model factories, transformations, and LiveData and their observers.
 * Creating a Room database, creating a DAO, and defining entities.
-* Using coroutines for database tasks and other long-running tasks.
-* How to implement a basic RecyclerView with an Adapter, ViewHolder, and item layout.
+* Using coroutines for database tasks and other long-runniHolder, and item layout.
 * How to implement data binding for RecyclerView.
-* How to create and use binding adapters to transform data.
+* How to create and use binding adapters to transform dng tasks.
+* How to implement a basic RecyclerView with an Adapter, Viewata.
 
 
 Getting Started
